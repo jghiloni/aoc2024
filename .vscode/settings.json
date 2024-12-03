@@ -1,0 +1,19 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "C_Cpp.clang_format_sortIncludes": true,
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.type": "sameLine",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.namespace": "sameLine",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
+  "C_Cpp.formatting": "vcFormat",
+  "C_Cpp.vcFormat.indent.accessSpecifiers": false,
+  "C_Cpp.vcFormat.indent.preserveComments": true,
+  "C_Cpp.vcFormat.newLine.beforeElse": false,
+  "C_Cpp.vcFormat.newLine.beforeCatch": false,
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine",
+  "files.associations": {
+    "iostream": "cpp",
+    "vector": "cpp",
+    "map": "cpp"
+  }
+}
