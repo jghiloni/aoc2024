@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++: clang++ build and debug active file",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/main",
+      "args": ["day2", "part2", "${workspaceFolder}/input/day2.dat"],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "lldb",
+      "targetArchitecture": "arm64",
+      "internalConsoleOptions": "openOnFirstSessionStart",
+      "preLaunchTask": "C/C++: clang++ build active file"
+    }
+  ]
+}

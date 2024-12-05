@@ -1,3 +1,4 @@
 input/*.dat
 main
 a.out
+out*

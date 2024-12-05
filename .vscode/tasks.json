@@ -11,12 +11,12 @@
         "-fcolor-diagnostics",
         "-fansi-escape-codes",
         "-o",
-        "${fileDirname}/${fileBasenameNoExtension}",
-        "${file}",
-        "${fileDirname}/days/*.cpp"
+        "${workspaceFolder}/main",
+        "${workspaceFolder}/main.cpp",
+        "${workspaceFolder}/days/*.cpp"
       ],
       "options": {
-        "cwd": "${fileDirname}"
+        "cwd": "${workspaceFolder}"
       },
       "problemMatcher": ["$gcc"],
       "group": {
