@@ -3,13 +3,17 @@
 
 #include <iostream>
 #include <string>
+#include <vector>
+
+using namespace std;
 
 class AdventOfCodeDay {
 public:
-  virtual long part1(std::istream& in) = 0;
-  virtual long part2(std::istream& in) = 0;
+  virtual long part1(istream& in) = 0;
+  virtual long part2(istream& in) = 0;
 };
 
-std::string readStream(std::istream& in);
+string readStream(istream& in);
+vector<string> getLines(istream& in);
 
 #endif

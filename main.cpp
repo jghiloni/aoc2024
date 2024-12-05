@@ -6,6 +6,7 @@
 #include "days/day1.hpp"
 #include "days/day2.hpp"
 #include "days/day3.hpp"
+#include "days/day4.hpp"
 
 using namespace std;
 
@@ -30,6 +31,7 @@ int main(int argc, char** argv) {
   daymap[string("day1")] = new Day1();
   daymap[string("day2")] = new Day2();
   daymap[string("day3")] = new Day3();
+  daymap[string("day4")] = new Day4();
 
   AdventOfCodeDay* exercise = daymap[day];
 
